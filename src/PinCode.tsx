@@ -75,7 +75,7 @@ class PinCode extends React.PureComponent<IProps, IState> {
       moveData: {x: 0, y: 0},
       showError: false,
       textButtonSelected: '',
-      colorDelete: 'rgb(211, 213, 218)',
+      colorDelete: 'white',
       attemptFailed: false,
       changeScreen: false
     }
@@ -273,7 +273,7 @@ class PinCode extends React.PureComponent<IProps, IState> {
                                 disabled={this.state.password.length === 0} underlayColor="transparent"
                                 onHideUnderlay={() => this.setState({
                                   colorDelete: this.props.styleDeleteButtonColorHideUnderlay ?
-                                    this.props.styleDeleteButtonColorHideUnderlay : 'rgb(211, 213, 218)'})
+                                    this.props.styleDeleteButtonColorHideUnderlay : 'white'})
                                 }
                                 onShowUnderlay={() => this.setState({
                                   colorDelete: this.props.styleDeleteButtonColorShowUnderlay ?

@@ -121,7 +121,7 @@ const styles = react_native_1.StyleSheet.create({
         flex: 3
     },
     textTimer: {
-        fontFamily: react_native_1.Platform.OS === 'ios' ? 'Courier' : 'monospace',
+        fontFamily: 'Avenir-Book',
         fontSize: 20,
         color: colors_1.colors.base
     },
@@ -129,7 +129,7 @@ const styles = react_native_1.StyleSheet.create({
         fontSize: grid_1.grid.navIcon,
         color: colors_1.colors.base,
         opacity: grid_1.grid.mediumOpacity,
-        fontWeight: '200',
+        fontWeight: '400',
         marginBottom: grid_1.grid.unit * 4
     },
     viewIcon: {
@@ -169,7 +169,7 @@ const styles = react_native_1.StyleSheet.create({
     },
     closeButtonText: {
         color: colors_1.colors.white,
-        fontWeight: 'bold',
+        fontWeight: '600',
         fontSize: 14
     }
 });

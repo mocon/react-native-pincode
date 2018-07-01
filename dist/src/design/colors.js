@@ -1,29 +1,29 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const colors = {
-    red: '#FC4349',
-    alert: '#FC4349',
-    green: '#8CC63F',
-    valid: '#8CC63F',
+    red: '#ff4a3d',
+    alert: '#ff4a3d',
+    green: '#19bd9b',
+    valid: '#19bd9b',
     orange: '#ffa500',
-    dark: '#213249',
-    light: '#F1F5FC',
+    dark: '#1a1a1a',
+    light: '#fafafa',
     background: '#ffffff',
     white: '#ffffff',
     base: '#445878',
     primary: '#799AE0',
     pink: '#FF87C3',
-    grey: '#9dafc8',
+    grey: '#646464',
     turquoise: '#7BCDD0',
     darkBlue: '#1B4581',
     cash: '#FF87C3',
     nzSecurities: '#799AE0',
     property: '#92CDCF',
-    nzEquities: '#8CC63F',
+    nzEquities: '#19bd9b',
     ausEquities: '#DECD58',
     globalEquities: '#FFAA4A',
-    altStrategies: '#FC4349',
-    globalDebtSecurities: '#213249'
+    altStrategies: '#ff4a3d',
+    globalDebtSecurities: '#1a1a1a'
 };
 exports.colors = colors;
 const documentColor = (docType) => {

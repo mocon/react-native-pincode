@@ -127,7 +127,7 @@ class PinCode extends React.PureComponent {
         this.renderButtonDelete = (opacity) => {
             return (React.createElement(react_native_1.TouchableHighlight, { style: this.props.styleColumnDeleteButton ? this.props.styleColumnDeleteButton : styles.colIcon, disabled: this.state.password.length === 0, underlayColor: "transparent", onHideUnderlay: () => this.setState({
                     colorDelete: this.props.styleDeleteButtonColorHideUnderlay ?
-                        this.props.styleDeleteButtonColorHideUnderlay : 'rgb(211, 213, 218)'
+                        this.props.styleDeleteButtonColorHideUnderlay : 'white'
                 }), onShowUnderlay: () => this.setState({
                     colorDelete: this.props.styleDeleteButtonColorShowUnderlay ?
                         this.props.styleDeleteButtonColorShowUnderlay : colors_1.colors.turquoise
@@ -150,7 +150,7 @@ class PinCode extends React.PureComponent {
             moveData: { x: 0, y: 0 },
             showError: false,
             textButtonSelected: '',
-            colorDelete: 'rgb(211, 213, 218)',
+            colorDelete: 'white',
             attemptFailed: false,
             changeScreen: false
         };
@@ -290,24 +290,29 @@ let styles = react_native_1.StyleSheet.create({
     },
     text: {
         fontSize: grid_1.grid.unit * 2,
-        fontWeight: '200'
+        fontWeight: '400',
+        fontFamily: 'Avenir-Book'
     },
     buttonCircle: {
         alignItems: 'center',
         justifyContent: 'center',
         width: grid_1.grid.unit * 4,
         height: grid_1.grid.unit * 4,
-        backgroundColor: 'rgb(242, 245, 251)',
-        borderRadius: grid_1.grid.unit * 2
+        backgroundColor: 'white',
+        borderRadius: grid_1.grid.unit * 2,
+        borderWidth: 1,
+        borderColor: '#19bd9b'
     },
     textTitle: {
         fontSize: 20,
-        fontWeight: '200',
+        fontFamily: 'Avenir-Book',
+        fontWeight: '400',
         lineHeight: grid_1.grid.unit * 2.5
     },
     textSubtitle: {
         fontSize: grid_1.grid.unit,
-        fontWeight: '200',
+        fontWeight: '400',
+        fontFamily: 'Avenir-Book',
         textAlign: 'center'
     },
     viewCirclePassword: {
@@ -317,7 +322,8 @@ let styles = react_native_1.StyleSheet.create({
         alignItems: 'center'
     },
     textDeleteButton: {
-        fontWeight: '200',
+        fontWeight: '400',
+        fontFamily: 'Avenir-Book',
         marginTop: 5
     }
 });

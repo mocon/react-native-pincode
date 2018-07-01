@@ -58,7 +58,7 @@ let styles = react_native_1.StyleSheet.create({
         fontFamily: grid_1.grid.fontBold
     },
     button: {
-        backgroundColor: 'rgb(159, 203, 206)',
+        backgroundColor: 'white',
         borderRadius: 2,
         paddingLeft: 30,
         paddingRight: 30,
@@ -67,7 +67,7 @@ let styles = react_native_1.StyleSheet.create({
     },
     textButton: {
         color: colors_1.colors.white,
-        fontFamily: 'Roboto-Bold',
+        fontFamily: 'Avenir-Book',
         fontSize: 16
     }
 });

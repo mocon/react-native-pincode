@@ -14,6 +14,9 @@ const grid = {
     borderRadius: 2,
     lowOpacity: 0.4,
     mediumOpacity: 0.6,
-    highOpacity: 0.8
+    highOpacity: 0.8,
+    font: 'Avenir-Book',
+    fontLight: 'Avenir-Book',
+    fontBold: 'Avenir-Book'
 };
 exports.grid = grid;
